@@ -1,1 +1,12 @@
+//The SQL query to create a database is:
+CREATE DATABASE database_name;
 
+//The SQL query to create a table is:
+CREATE TABLE table_name (
+  column1 data_type,
+  column2 data_type
+);
+
+//The SQL query to insert data into a table is:
+INSERT INTO table_name (column1, column2, column3)
+VALUES (value1, value2, value3);
