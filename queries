@@ -9,4 +9,22 @@ CREATE TABLE table_name (
 
 //The SQL query to insert data into a table is:
 INSERT INTO table_name (column1, column2, column3)
-VALUES (value1, value2, value3);
+VALUES (value1, value2, value);
+
+//The SQL query to select data from a table is:
+SELECT * FROM table_name;
+
+//The SQL query to select data from a column in a table is:
+SELECT column1, column2, ...
+FROM table_name;
+
+//The SQL query to select DISTINCT syntax:
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+
+//WHERE Syntax;
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+
