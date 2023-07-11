@@ -63,3 +63,25 @@ WHERE condition;
 
 //DELETE Syntax
 DELETE FROM table_name WHERE condition;
+
+//The SQL SELECT TOP Clause
+SELECT TOP number|percent column_name(s)
+FROM table_name
+WHERE condition;
+
+
+//LIMIT
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+LIMIT number;
+
+//MIN() Syntax
+SELECT MIN(column_name)
+FROM table_name
+WHERE condition;
+
+//MAX() Syntax
+SELECT MAX(column_name)
+FROM table_name
+WHERE condition;
