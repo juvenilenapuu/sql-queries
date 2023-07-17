@@ -95,3 +95,10 @@ WHERE condition;
 SELECT AVG(column_name)
 FROM table_name
 WHERE condition;
+
+//SUM() Syntax
+SELECT SUM(column_name)
+FROM table_name
+WHERE condition;
+
+
