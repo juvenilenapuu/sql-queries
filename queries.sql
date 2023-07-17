@@ -85,3 +85,13 @@ WHERE condition;
 SELECT MAX(column_name)
 FROM table_name
 WHERE condition;
+
+//COUNT() Syntax
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition;
+
+//AVG() Syntax
+SELECT AVG(column_name)
+FROM table_name
+WHERE condition;
