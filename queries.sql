@@ -124,6 +124,29 @@ WHERE columnN LIKE pattern;
 -- WHERE CustomerName LIKE 'a__%'	Finds any values that start with "a" and are at least 3 characters in length
 -- WHERE ContactName LIKE 'a%o'	Finds any values that start with "a" and ends with "o"
 
+//IN Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (value1, value2, ...);
 
+-- or:
+
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (SELECT STATEMENT);
+
+//BETWEEN Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;
+
+ALIASES
+//Alias Column Syntax
+SELECT column_name AS alias_name
+FROM table_name;
+
+//Alias Table Syntax
+SELECT column_name(s)
+FROM table_name AS alias_name;
 
 
