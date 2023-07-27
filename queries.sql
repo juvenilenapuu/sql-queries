@@ -168,10 +168,24 @@ FROM table1
 LEFT JOIN table2
 ON table1.column_name = table2.column_name;
 
+<<<<<<< HEAD
+//FULL OUTER JOIN Syntax
+SELECT column_name(s)
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column_name = table2.column_name
+WHERE condition;
+=======
 //RIGHT JOIN Syntax
 SELECT column_name(s)
 FROM table1
 RIGHT JOIN table2
 ON table1.column_name = table2.column_name;
+>>>>>>> 0ef342bda56db03d658678be445221816667a7bf
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 0ef342bda56db03d658678be445221816667a7bf
 
