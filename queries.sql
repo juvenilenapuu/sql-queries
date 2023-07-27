@@ -189,3 +189,7 @@ ON table1.column_name = table2.column_name;
 
 >>>>>>> 0ef342bda56db03d658678be445221816667a7bf
 
+//Self Join Syntax
+SELECT column_name(s)
+FROM table1 T1, table1 T2
+WHERE condition;
