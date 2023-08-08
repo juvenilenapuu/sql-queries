@@ -197,3 +197,45 @@ SELECT column_name(s) FROM table2;
 SELECT column_name(s) FROM table1
 UNION ALL
 SELECT column_name(s) FROM table2;
+
+//GROUP BY Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+ORDER BY column_name(s);
+
+//HAVING Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+HAVING condition
+ORDER BY column_name(s);
+
+//EXISTS Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE EXISTS
+(SELECT column_name FROM table_name WHERE condition);
+
+//ANY Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE column_name operator ANY
+  (SELECT column_name
+  FROM table_name
+  WHERE condition);
+
+//ALL Syntax With SELECT
+SELECT ALL column_name(s)
+FROM table_name
+WHERE condition;
+
+ALL Syntax With WHERE or HAVING
+SELECT column_name(s)
+FROM table_name
+WHERE column_name operator ALL
+  (SELECT column_name
+  FROM table_name
+  WHERE condition);
