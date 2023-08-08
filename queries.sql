@@ -168,28 +168,32 @@ FROM table1
 LEFT JOIN table2
 ON table1.column_name = table2.column_name;
 
-<<<<<<< HEAD
+
 //FULL OUTER JOIN Syntax
 SELECT column_name(s)
 FROM table1
 FULL OUTER JOIN table2
 ON table1.column_name = table2.column_name
 WHERE condition;
-=======
+
+
 //RIGHT JOIN Syntax
 SELECT column_name(s)
 FROM table1
 RIGHT JOIN table2
 ON table1.column_name = table2.column_name;
->>>>>>> 0ef342bda56db03d658678be445221816667a7bf
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 0ef342bda56db03d658678be445221816667a7bf
 
 //Self Join Syntax
 SELECT column_name(s)
 FROM table1 T1, table1 T2
 WHERE condition;
+
+//UNION Syntax
+SELECT column_name(s) FROM table1
+UNION
+SELECT column_name(s) FROM table2;
+
+//UNION ALL Syntax
+SELECT column_name(s) FROM table1
+UNION ALL
+SELECT column_name(s) FROM table2;
