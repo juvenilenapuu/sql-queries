@@ -281,3 +281,7 @@ GO;
 
 //Execute a Stored Procedure
 EXEC procedure_name;
+
+//The SQL BACKUP DATABASE Statement
+BACKUP DATABASE databasename
+TO DISK = 'filepath';
