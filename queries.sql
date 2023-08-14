@@ -272,3 +272,9 @@ CASE
     WHEN conditionN THEN resultN
     ELSE result
 END;
+
+//Stored Procedure Syntax
+CREATE PROCEDURE procedure_name
+AS
+sql_statement
+GO;
