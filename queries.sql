@@ -285,3 +285,7 @@ EXEC procedure_name;
 //The SQL BACKUP DATABASE Statement
 BACKUP DATABASE databasename
 TO DISK = 'filepath';
+
+//The SQL DROP DATABASE Statement
+DROP DATABASE databasename;
+
