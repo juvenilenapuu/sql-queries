@@ -289,3 +289,6 @@ TO DISK = 'filepath';
 //The SQL DROP DATABASE Statement
 DROP DATABASE databasename;
 
+//The SQL BACKUP DATABASE Statement
+BACKUP DATABASE databasename
+TO DISK = 'filepath';
